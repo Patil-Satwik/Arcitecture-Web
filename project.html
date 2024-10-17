@@ -1,0 +1,185 @@
+<html>
+  <head>
+    <title>Projects</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/months/css/docs.css"
+      rel="stylesheet"
+    />
+    <link href="stylesheet.css" rel="stylesheet" />
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+      }
+      .container {
+        max-width: 1200px;
+        margin-top: -30%;
+        padding: 20px;
+        background-color: #fff;
+        position: relative;
+      }
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .header h1 {
+        font-size: 36px;
+        font-weight: bold;
+      }
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+      .project {
+        position: relative;
+      }
+      .project img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      .project .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+      }
+      .project:hover .overlay {
+        opacity: 1;
+      }
+      .project .overlay .title {
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .project .overlay .icons {
+        display: flex;
+        gap: 10px;
+      }
+      .projectimgmain {
+        background-image: url(https://static.wixstatic.com/media/2e2a49_848befbd43ba4c20b90ac75a7a7aa737~mv2_d_5144_3429_s_4_2.jpg/v1/fill/w_1479,h_750,al_b,q_85,usm_0.66_1.00_0.01,enc_auto/2e2a49_848befbd43ba4c20b90ac75a7a7aa737~mv2_d_5144_3429_s_4_2.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: initial;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        z-index: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="abovenav" id>
+      <div class="navbar" id="forscroll">
+        <div class="first">
+          <div class="Title">ShureArchitects.</div>
+        </div>
+        <div class="second">
+          <ul>
+            <div class="paused">
+              <li><a href="" class="nostyle">HOME</a></li>
+            </div>
+            <li><a href="ourstory.html">OUR STORY</a></li>
+            <li><a href="project.html">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="projectimgmain"></div>
+    <div class="container">
+      <div class="header">
+        <h1>Projects.</h1>
+      </div>
+      <div class="projects">
+        <div class="project">
+          <img
+            alt="Project no.1 image description"
+            height="400"
+            src="https://static.wixstatic.com/media/cbfa27b02ca94970aa13192b684e264c.jpg/v1/fill/w_462,h_260,q_90/cbfa27b02ca94970aa13192b684e264c.webp"
+            width="600"
+          />
+          <div class="overlay">
+            <div class="title">Project no.1</div>
+          </div>
+        </div>
+        <div class="project">
+          <img
+            alt="Project no.2 image description"
+            height="400"
+            src="https://static.wixstatic.com/media/735c2fac9dad41269d5457a986265ac9.jpg/v1/fill/w_462,h_260,q_90/735c2fac9dad41269d5457a986265ac9.webp"
+            width="600"
+          />
+          <div class="overlay">
+            <div class="title">Project no.2</div>
+          </div>
+        </div>
+        <div class="project">
+          <img
+            alt="Project no.3 image description"
+            height="400"
+            src="https://static.wixstatic.com/media/c8164168627f4aa2adb08be83072a4ce.jpg/v1/fill/w_462,h_260,q_90/c8164168627f4aa2adb08be83072a4ce.webp"
+            width="600"
+          />
+          <div class="overlay">
+            <div class="title">Project no.3</div>
+          </div>
+        </div>
+        <div class="project">
+          <img
+            alt="Project no.4 image description"
+            height="400"
+            src="https://static.wixstatic.com/media/20b77430ee264fa296a893330e2b839b.jpg/v1/fill/w_462,h_260,q_90/20b77430ee264fa296a893330e2b839b.webp"
+            width="600"
+          />
+          <div class="overlay">
+            <div class="title">Project no.4</div>
+          </div>
+        </div>
+        <div class="project">
+          <img
+            alt="Project no.5 image description"
+            height="400"
+            src="https://static.wixstatic.com/media/8d9756b126d54ba999e6d8fc0c33ce26.jpg/v1/fill/w_462,h_260,q_90/8d9756b126d54ba999e6d8fc0c33ce26.webp"
+            width="600"
+          />
+          <div class="overlay">
+            <div class="title">Project no.5</div>
+          </div>
+        </div>
+        <div class="project">
+          <img
+            alt="Project no.6 image description"
+            height="400"
+            src="https://static.wixstatic.com/media/d01561c2d779471b8001fc6c6fa9fe3b.jpg/v1/fill/w_462,h_260,q_90/d01561c2d779471b8001fc6c6fa9fe3b.webp"
+            width="600"
+          />
+          <div class="overlay">
+            <div class="title">Project no.6</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

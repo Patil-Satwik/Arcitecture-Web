@@ -1,0 +1,382 @@
+/* .abovenav{
+  
+
+} */
+
+.navbar{
+    width:100%;
+    background: linear-gradient(to bottom, rgb(230, 230, 230), rgb(200, 200, 200));
+    height:8%; 
+    display: flex;
+    position: fixed;
+    z-index:5;
+}
+
+
+.first{
+    width: 50%;
+    font-size:30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:0%;
+    margin-top: -2%;
+}
+
+.second{
+    width: 50%;
+    font-size:17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    /* margin-top: -1%; */
+}
+
+.Title{
+    margin-left:30%;
+    font-weight: 450;
+}
+
+ul{
+    list-style-type:none;
+    display: flex;
+    gap:30px;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.line{
+    width:100%;
+    height:0.5vh;
+    background-color: black;
+    margin-top: -3.5%;
+}
+
+.background{
+    background-image:url(https://static.wixstatic.com/media/2e2a49_dab22828241c4de2a455f384ef32400a~mv2_d_4485_2990_s_4_2.jpg/v1/fill/w_1576,h_992,al_t,q_85,usm_0.66_1.00_0.01,enc_auto/2e2a49_dab22828241c4de2a455f384ef32400a~mv2_d_4485_2990_s_4_2.jpg);
+    height:100vh;
+    width:100%;
+    background-repeat: initial;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index:0;
+}
+
+.rect{
+    height:40px;
+    width:100px;
+    border: 1px solid white;
+    position: absolute;
+    background-color: white;
+    /* margin-left: ; */
+    margin-top: 16%;
+    animation: myrect 5s;
+    animation-fill-mode: forwards;
+}
+
+.SA{
+   
+    position: absolute;
+    color: white;
+    font-size:400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin-left:%; */
+    margin-top:10%;
+    animation: mymove 5s;
+    animation-fill-mode: forwards;
+    
+} 
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 533px;}
+  }
+
+#SA{
+    animation-timing-function: linear;
+}
+
+@keyframes myrect {
+    from {left: 0px;}
+    to {left:830px;}
+  }
+
+
+#rect{
+    animation-timing-function: linear;  
+}
+
+
+.projectspage{
+    height:3700px;
+    width:100%;
+    background-color: rgb(225, 229, 229);
+}
+
+.onehalfimg{
+    display: flex;
+    width:100%;
+    height:1000px;
+    background-color: rgb(225, 229, 229);
+    gap:3.5%;
+    
+}
+
+.a{
+
+    width:50%;
+}
+.b{
+    width:50%;
+}
+
+.innerboxa{
+    width: 27%;
+    height: 30%;
+    background-color: aliceblue;
+position: absolute;
+z-index:2;
+margin-top:40%;
+margin-right:30%;
+box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+padding:1.5%;
+}
+
+.innerboxb{
+    width: 27%;
+    height: 30%;
+    background-color: aliceblue;
+position: absolute;
+z-index:3;
+margin-left:25%;
+margin-top:5%;
+box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+padding:1.5%;
+}
+
+.borderbox{
+    margin-left:40%;
+    position: relative;
+    z-index:0;
+    padding-top:6%;
+    margin-top: -11%;
+}
+
+.contentofborderbox{
+    padding-left:15%;
+    padding-right:4%;
+}
+
+.para{
+    font-size:15px;
+}
+.imgofp3{
+    margin-top:7%;
+margin-left:21%;
+position: absolute;
+z-index:2;
+
+}
+
+.project4{
+    display: flex;
+      
+}
+
+.whitebox{
+    margin-top:0%;
+    position:absolute;
+    z-index:1;
+    margin-top:32%;
+    margin-left:10%;
+}
+
+.imgofp4{
+    height:40%;
+    width:120%;
+    position: relative;
+    z-index:0;
+    margin-top:10%;
+    margin-left:50%;
+}
+
+.imgofp5{
+    position: relative;
+    z-index:0;
+    margin-top:10%;
+    margin-left:20%;
+}
+
+.smbox{
+    width:450px;
+    height:200px;
+    background-color: white;
+    margin-left:40%;
+   
+
+}
+
+.smboxcontent{
+    padding:4%; 
+}
+
+.imgofp6{
+    position: relative;
+    z-index:0;
+    margin-left:20%;
+}
+
+.project6{
+ display:flex;
+ 
+}
+
+.stay{
+    padding-bottom: 5%;
+    padding-top:4%;
+}
+
+.whitestaybox{
+    width:5%;
+    position: absolute;
+    z-index:1;
+    margin-left:50%;
+    box-shadow:10px 10px 30px rgba(0, 0, 0, 0.2);
+    margin-top:10%;
+    
+}
+
+
+.contentofstaybox
+{
+    width:80%;
+    
+}
+
+/* #scroll1{
+  
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+.navbar li a {
+    display: block;
+    color:black;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    transition: border 0.3s ease;
+    border-top: 4px solid transparent; /* Invisible border for smooth effect */
+}
+
+
+.navbar li a:hover {
+    border-top: 4px solid black;
+}
+
+/* .backg{
+    background-image: url(assets/design-academy-banner-desktop.jpg);
+    background-repeat: no-repeat;
+   background-size:contain ;
+    background-attachment: fixed;
+position: relative;
+z-index: 0;
+    height:70vh;
+    width:120%;
+    
+} */
+
+.aboutuscontent{
+    background-color: white;
+    width:45%;
+    height:10%;
+    margin-top:0%;
+    position:absolute;
+    z-index:1;
+}
+
+.aperson{
+    display: flex;
+
+}
+
+.aimg{
+position: relative;
+z-index:0;
+margin-left:18%;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+margin-top:10%;
+}
+.aborder{
+    border:3.5px solid black;
+    width:20%;
+    height:200px;
+    position: absolute;
+    z-index:1;
+    margin-left:32%;
+margin-top:7%;
+}
+
+.acontent{
+   padding:10%;
+}
+
+
+.bperson{
+    display: flex;
+    margin-bottom:15%;
+}
+
+.bimg{
+position: relative;
+z-index:0;
+margin-left:44%;
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+margin-top:10%;
+}
+.bborder{
+    border:3.5px solid black;
+    width:20%;
+    height:200px;
+    position: absolute;
+    z-index:1;
+    margin-left:58%;
+margin-top:5%;
+}
+
+.bcontent{
+   padding:10%;
+}
+
+.cimg{
+    position: relative;
+    z-index:0;
+    margin-left:18%;
+    margin-top:10%;
+    padding: 0%;
+    box-shadow: inset;
+    }
+    .cborder{
+     
+        width:20%;
+        height:200px;
+        position: absolute;
+        z-index:1;
+        
+    }
+    .backgroundimg {
+        background-image: url(https://static.wixstatic.com/media/2e2a49_86c543da4e884abfaf0f0fe0f4533adc~mv2_d_5120_3413_s_4_2.jpg/v1/fill/w_1519,h_752,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2e2a49_86c543da4e884abfaf0f0fe0f4533adc~mv2_d_5120_3413_s_4_2.jpg);
+        height: 100vh;
+        width: 100%;
+        background-repeat: initial;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        z-index: 0;
+      }
